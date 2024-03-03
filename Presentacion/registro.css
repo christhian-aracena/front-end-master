@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #e03d3d;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(239, 238, 241, 0.1);
+}
+
+.registration-form {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+#btn1 button{
+    gap: 20px;
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 12px); /* Reducir el ancho para dejar espacio para el borde */
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    box-sizing: border-box; /* Para que el padding no afecte al ancho */
+}
+body {
+    background: linear-gradient(90deg, rgba(92,84,112,1) 0%, rgba(0,0,0,1) 35%, rgba(255,0,0,1) 100%);
+    
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f83f3f;
+    color: #ffffff;
+    border: solid 0.1rem #f9c9c9;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    gap: 20px;
+    margin-top: 8px;
+}
+
+button:hover {
+    background-color: #f76f6f;
+}
+

@@ -1,0 +1,247 @@
+/*CONFIGURACION INICIAL*/
+
+* {
+    text-decoration: none;
+    margin: 0rem;
+    padding: 0rem;
+    font-style: none;
+    list-style: none;
+
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    overflow: scroll;
+    overflow-x: hidden;
+
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Raleway";
+    font-size: 1.6rem;
+    line-height: 1.5;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color:rgb(247, 248, 248);
+
+}
+.form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-label{
+    color: aliceblue;
+    font-family: Nunito;
+}
+
+.form-control{
+    height: 3.5rem;
+}
+.title{
+    cursor: pointer;
+    font-family: Nunito;
+    border: solid 0.2rem white !important;  
+}
+.btn-sesion{
+    font-family: Nunito;
+}
+
+.registro{
+    font-family: Nunito;
+}
+
+.label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 1.6rem;
+    box-sizing: border-box;
+    font-family: Nunito;
+    font-weight: 800;
+    font-weight: bolder;
+}
+
+
+.check{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    flex-direction: row;
+
+}
+
+/* .mostrar{
+    align-self: flex-end;
+    display: inline-block;
+    justify-self: center;
+} */
+#mostrar-contrasenia{
+    display: flex;
+    justify-self: end;
+    align-self: center;
+    min-width: 1.7rem;
+    min-height: 1.7rem;
+    margin-bottom: 0.7rem;
+    margin-left: -12rem;
+}
+
+.validador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*boton*/
+button {
+    display: block; /* Convertimos el botón en un bloque */
+    margin: 0 auto; /* Establecemos margen automático en los lados para centrarlo horizontalmente */
+    background-color: #db0e0e;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(252, 8, 8, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+    font-family: Nunito;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #f86666;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+    font-family: Nunito;
+}
+
+
+.logo-container{
+    text-align: center;
+
+}
+
+.logo {
+    width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius:100%;
+  border: solid 0.2rem white !important;
+
+
+
+
+}
+
+.container{
+    height: 100vh;
+    padding: 55px;
+    width: 100%;
+
+}
+
+#rcuenta{
+    color:rgb(255, 255, 255);
+}
+
+#ncuenta{
+    color: rgb(197, 196, 196);
+
+}
+#ncuenta:hover{
+    color: #fff;
+}
+.btningresar{
+    width: 100%;
+}
+
+
+
+.button-primary {
+    background-color: #93a9b8;
+    color: #fff;
+    border: 1px solid #3498db;
+}
+
+.button-primary:hover {
+    background-color: #2980b9;
+}
+
+
+.boton{
+    background-color: #adb9c9;
+}
+
+
+/* estilos.css */
+body {
+    background: linear-gradient(90deg, rgba(92,84,112,1) 0%, rgba(0,0,0,1) 35%, rgba(255,0,0,1) 100%);
+    
+}
+
+.contenedor-titulo {
+    text-align: center;
+    margin-top: 70px;
+}
+
+h1 {
+    background-color: #ca33332f; /* Color de fondo del título */
+    color: #ffffff; /* Color del texto del título */
+    padding: 10px 20px; /* Espaciado interno del título */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    width: 55%;
+    margin: auto;
+}
+
+#btn-boton:hover{
+    background-color: #29b982;
+}
+
+.btn-primary{
+    color: white;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px; /* Ajusta el margen superior según sea necesario */
+
+}
+.fuente{
+    color: white;
+    font-family: Nunito;
+    min-width: 28rem;
+}
+.btningresar:hover{
+    background: #f02525;
+
+}
+
+.title:hover{
+    background-color: #f35656;
+    border: solid;
+    border: solid 0.2rem white !important;         
+}
+
+
+    
+
+
+
+
+
+
