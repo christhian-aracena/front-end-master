@@ -12,3 +12,27 @@ function mostrarContrasenia() {
     }
 }
 
+var menu = document.getElementById('menu');
+var hamburguesa = document.getElementById('hamburguesa');
+
+hamburguesa.addEventListener('click', function() {
+    if (menu.style.left === "0px") {
+        menu.style.left = "-250px";
+    } else {
+        menu.style.left = "0px";
+    }
+});
+
+document.querySelectorAll('.submenu-parent .submenu-trigger').forEach(function(item) {
+    item.addEventListener('click', function(e) {
+        e.preventDefault();
+        var submenu = this.nextElementSibling;
+        submenu.classList.toggle('submenu-active');
+    });
+});
+var hamburguesa = document.getElementById('hamburguesa');
+
+hamburguesa.addEventListener('click', function() {
+    hamburguesa.classList.toggle('cruz');
+});
+

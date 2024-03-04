@@ -139,7 +139,7 @@ h1 {
 .perfil p {
     color: rgb(255, 255, 255);
     display: contents;
-    font-family: Mulish;
+    font-family: Nunito;
     font-weight: bold;
 }
 
@@ -235,7 +235,7 @@ footer {
 }
 
 small {
-    font-family: Mulish;
+    font-family: Nunito;
 }
 
 
@@ -253,7 +253,7 @@ main {
 }
 
 .fuente {
-    font-family: Mulish;
+    font-family: Nunito;
     align-self: self-start;
 }
 
@@ -274,3 +274,78 @@ main {
 
 
 
+#menu {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background: #333;
+    transition: left 0.3s ease;
+    margin-top: 6.7rem;
+    padding-top: 5rem;
+}
+
+#menu ul {
+
+    padding: 20px;
+    list-style: none;
+    font-family: Nunito;
+    font-size: 1.8rem;
+}
+
+#menu ul li {
+    margin-bottom: 10px;
+    font-family: Nunito;
+}
+
+#menu ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+#menu ul li a:hover {
+    text-shadow: 0.3rem 0.3rem 2rem white;
+    color: #ffffff;
+}
+.submenu {
+    display: none;
+}
+
+.submenu-active {
+    display: block;
+}
+
+.hamburguesa {
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 8rem;
+    z-index: 10;
+    margin-left: 2rem;
+}
+
+.barra {
+    width: 25px;
+    height: 3px;
+    background: #333;
+    margin: 5px 0;
+    transition: background-color 1s ease; /* Agregar transición de color */
+}
+
+.cruz .barra {
+    background: #fff; /* Cambiar el color a blanco cuando está en estado de cruz */
+}
+
+.cruz .barra:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.cruz .barra:nth-child(2) {
+    opacity: 0;
+}
+
+.cruz .barra:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -7px);
+}
