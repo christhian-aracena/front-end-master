@@ -292,6 +292,7 @@ main {
     list-style: none;
     font-family: Nunito;
     font-size: 1.8rem;
+    margin-bottom: -2rem;
 }
 
 #menu ul li {

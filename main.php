@@ -65,6 +65,13 @@ if (!isset($correo)) {
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Registrados</a></li>
                 <li class="submenu-parent">
+                    <a href="#" class="submenu-trigger">Historial</a>
+                    <ul class="submenu">
+                        <li><a href="#">Mi historial</a></li>
+                        <li><a href="#">Log global</a></li>
+                    </ul>
+                </li>
+                <li class="submenu-parent">
                     <a href="#" class="submenu-trigger">Registrar</a>
                     <ul class="submenu">
                         <li><a href="#">Crear registro</a></li>
