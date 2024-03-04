@@ -276,7 +276,7 @@ main {
 
 #menu {
     position: fixed;
-    top: 0;
+    top: -1.4rem;
     left: -250px;
     width: 250px;
     height: 100%;
