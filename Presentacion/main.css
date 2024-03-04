@@ -280,9 +280,9 @@ main {
     left: -250px;
     width: 250px;
     height: 100%;
-    background: #333;
+    background: #343A40;
     transition: left 0.3s ease;
-    margin-top: 6.7rem;
+    margin-top: 6.4rem;
     padding-top: 5rem;
 }
 
@@ -303,6 +303,7 @@ main {
 #menu ul li a {
     color: #fff;
     text-decoration: none;
+    gap: 1rem;
 }
 
 
@@ -312,6 +313,9 @@ main {
 }
 .submenu {
     display: none;
+}
+.submenu li{
+    color: white;
 }
 
 .submenu-active {
@@ -349,4 +353,28 @@ main {
 
 .cruz .barra:nth-child(3) {
     transform: rotate(-45deg) translate(7px, -7px);
+}
+.contenedor-drop{
+    font-size: 2rem;
+    min-height: 100%;
+    font-family: Nunito;
+    min-width: 10rem !important;
+}
+
+.nombre-usuario{
+    font-size: 1.7rem;
+    height: 100%;
+    font-family: Nunito;
+
+
+}
+
+.dropdown-menu{
+    min-width: 27rem !important;
+    margin-right: -1rem !important;
+    margin-top: 1.1rem !important;
+}
+
+.dropdown-item{
+    max-width: 24.7rem;
 }

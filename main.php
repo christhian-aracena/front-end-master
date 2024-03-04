@@ -40,11 +40,18 @@ if (!isset($correo)) {
             </a>
 
             <div class="contenedor-botones">
-                <a href="Dashboard">Inicio</a>
-                <a href="create.php">Registros</a>
-                <a href="#">Campañas</a>
-
-
+            <div class="btn-group">
+            <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <button class="btn btn-dark dropdown-toggle nombre-usuario" data-bs-toggle="dropdown" aria-expanded="false">
+            Hola, Christhian Aracena
+          </button>
+          <ul class="dropdown-menu dropdown-menu-dark">
+            <li><a class="dropdown-item" href="#">Mi perfil</a></li>
+            <li><a class="dropdown-item" href="#">Configuración</a></li>
+            <li><a class="dropdown-item" href="#">Cerrar sesión</a></li>
+          </ul>
+        </div>
             </div>
 
 
@@ -62,27 +69,27 @@ if (!isset($correo)) {
 
         <nav id="menu">
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Registrados</a></li>
+                <li><a href="#"><i class="fa-solid fa-house-chimney"></i> Inicio</a></li>
+                <li><a href="#"><i class="fa-regular fa-file-lines"></i> Registrados</a></li>
                 <li class="submenu-parent">
-                    <a href="#" class="submenu-trigger">Historial</a>
+                    <a href="#" class="submenu-trigger"><i class="fa-solid fa-list-check"></i> Historial</a>
                     <ul class="submenu">
-                        <li><a href="#">Mi historial</a></li>
-                        <li><a href="#">Log global</a></li>
+                        <li><a href="#"><i class="fa-solid fa-caret-right"></i> Mi historial</a></li>
+                        <li><a href="#"><i class="fa-solid fa-caret-right"></i> Log global</a></li>
                     </ul>
                 </li>
                 <li class="submenu-parent">
-                    <a href="#" class="submenu-trigger">Registrar</a>
+                    <a href="#" class="submenu-trigger"><i class="fa-solid fa-file-medical"></i> Registrar</a>
                     <ul class="submenu">
-                        <li><a href="#">Crear registro</a></li>
-                        <li><a href="#">Modificar registro</a></li>
+                        <li><a href="#"><i class="fa-solid fa-caret-right"></i> Crear registro</a></li>
+                        <li><a href="#"><i class="fa-solid fa-caret-right"></i> Modificar registro</a></li>
                     </ul>
                 </li>
                 <li class="submenu-parent">
-                    <a href="#" class="submenu-trigger">Campañas</a>
+                    <a href="#" class="submenu-trigger"><i class="fa-solid fa-landmark"></i> Campañas</a>
                     <ul class="submenu">
-                        <li><a href="#">Ver campañas</a></li>
-                        <li><a href="#">Modificar campañas</a></li>
+                        <li><a href="#"><i class="fa-solid fa-caret-right"></i> Ver campañas</a></li>
+                        <li><a href="#"><i class="fa-solid fa-caret-right"></i> Modificar</a></li>
                     </ul>
                 </li>
             </ul>
@@ -101,7 +108,8 @@ if (!isset($correo)) {
     </div>
     <script src="loguear.js"></script>
     <script src="Negocio/js/validaciones.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
 
 </html>
