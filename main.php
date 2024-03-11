@@ -106,7 +106,7 @@ if (!isset($correo)) {
                     <ul class="submenu">
                         <li><a href="#"><i class="fa-solid fa-caret-right"></i> Plataformas</a></li>
                         <li><a href="#"><i class="fa-solid fa-caret-right"></i> Cuentas</a></li>
-                        <li><a href="#"><i class="fa-solid fa-caret-right utilidades"></i> Log global</a></li>
+                        <li><a href="#"><i class="fa-solid fa-caret-right utilidad"></i> Log global</a></li>
                     </ul>
                 </li>
             </ul>
