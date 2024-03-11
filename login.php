@@ -63,7 +63,7 @@
             </div>
         </div>
         <p id="rcuenta" class="mt-3 text-center registro">
-            ¿No tienes una cuenta? <a id="ncuenta" href="registro.html" target="_blank">Regístrate aquí</a>
+            ¿No tienes una cuenta? <a id="ncuenta" href="registro.php">Regístrate aquí</a>
         </p>
     </div>
     <script src="loguear.js"></script>

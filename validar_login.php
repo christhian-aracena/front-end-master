@@ -16,8 +16,9 @@ if ($array['count'] > 0) {
 
     if ($consulta = mysqli_fetch_array($resultados)) {
         $_SESSION['id_login'] = $consulta['id_login'];
-        $_SESSION['nombre_completo'] = $consulta['nombre_completo'];
-        $nombre_completo = $_SESSION['nombre_completo'];
+        $_SESSION['nombre_login'] = $consulta['nombre_login'];
+        $_SESSION['apellido_login'] = $consulta['apellido_login'];
+        $nombre_completo = $_SESSION['nombre_login'].' '. $_SESSION['apellido_login'];
     }
 
     // Determinar el saludo según la hora actual de Santiago de Chile

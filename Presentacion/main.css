@@ -30,7 +30,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     background-color: rgb(247, 248, 248);
 }
 
@@ -284,6 +284,7 @@ main {
     transition: left 0.3s ease;
     margin-top: 6.4rem;
     padding-top: 5rem;
+    overflow-y: auto;
 }
 
 #menu ul {
@@ -323,6 +324,7 @@ main {
 }
 
 .hamburguesa {
+
     cursor: pointer;
     position: fixed;
     left: 0;
@@ -337,10 +339,11 @@ main {
     background: #333;
     margin: 5px 0;
     transition: background-color 1s ease; /* Agregar transición de color */
+
 }
 
 .cruz .barra {
-    background: #fff; /* Cambiar el color a blanco cuando está en estado de cruz */
+    background-color:white ; /* Cambiar el color a blanco cuando está en estado de cruz */
 }
 
 .cruz .barra:nth-child(1) {
@@ -388,3 +391,11 @@ main {
 .dropdown-item{
     max-width: 24.7rem;
 }
+
+.utilidades{
+    margin-bottom: 9rem;
+}
+
+/* main{
+    background-color: black;
+} */
