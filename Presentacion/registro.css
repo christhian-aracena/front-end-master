@@ -110,3 +110,41 @@ button:hover {
     font-size: 20px;
     cursor: pointer;
 }
+
+.alert {
+    position: fixed;
+    top: -50px; /* Inicialmente fuera de la vista */
+    left: 50%; /* Centrado horizontalmente */
+    transform: translateX(-50%); /* Centrado horizontalmente */
+    max-width: 60%; /* Limita el ancho máximo de la alerta */
+    background-color: #ffcccc; /* Fondo rojo claro */
+    color: #cc0000; /* Texto rojo oscuro */
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 9999; /* Para asegurarnos de que esté por encima de otros elementos */
+    display: none; /* Inicialmente oculto */
+    animation: slideIn 0.5s forwards; /* Animación de desplazamiento hacia abajo */
+}
+
+.alert.closeable {
+    position: relative;
+}
+
+.alert .close {
+    position: absolute;
+    top: 5px;
+    right: 5px; /* Ajusta el espacio entre la cruz y el borde derecho */
+    cursor: pointer;
+}
+
+
+@keyframes slideIn {
+    from {
+        top: -60rem; /* Posición inicial fuera de la vista */
+    }
+    to {
+        top: -51.2rem; /* Posición final, visible en la parte superior */
+    }
+}
+
