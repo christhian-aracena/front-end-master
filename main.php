@@ -44,7 +44,7 @@ if (!isset($correo)) {
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown">
                             <button class="btn btn-dark dropdown-toggle nombre-usuario" data-bs-toggle="dropdown" aria-expanded="false">
-                                Hola, Christhian Aracena
+                                Hola, <?php echo $_SESSION['nombre_login'] .' '.$_SESSION['apellido_login']?>
                             </button>
                             <ul class="dropdown-menu dropdown-menu-dark">
                                 <li><a class="dropdown-item" href="#">Cuenta</a></li>
