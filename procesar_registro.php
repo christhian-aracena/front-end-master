@@ -1,10 +1,15 @@
 <?php
 require 'Datos/conexion.php';
 
-$nombre = $_POST['nombre_registro'];
-$apellido = $_POST['apellido_registro'];
-$correo = $_POST['correo_registro'];
-$ocupacion = $_POST['ocupacion'];
+$nombre = strtolower($_POST['nombre_registro']);
+$apellido = strtolower($_POST['apellido_registro']);
+$correo = strtolower($_POST['correo_registro']);
+$ocupacion = strtolower($_POST['ocupacion']);
+
+$nombre = ucfirst($nombre);
+$apellido = ucfirst($apellido);
+
+
 $password = $_POST['password'];
 
 // Consulta para verificar si el correo ya existe
