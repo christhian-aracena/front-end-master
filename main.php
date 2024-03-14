@@ -44,13 +44,15 @@ if (!isset($correo)) {
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown">
                             <button class="btn btn-dark dropdown-toggle nombre-usuario" data-bs-toggle="dropdown" aria-expanded="false">
-                                Hola, <?php echo $_SESSION['nombre_login'] .' '.$_SESSION['apellido_login']?>
+                                Hola, <?php echo $_SESSION['nombre_login'] . ' ' . $_SESSION['apellido_login'] ?>
                             </button>
                             <ul class="dropdown-menu dropdown-menu-dark">
                                 <li><a class="dropdown-item" href="#">Cuenta</a></li>
-                                <li><a class="dropdown-item" href="#">Configuración</a></li>   
+                                <li><a class="dropdown-item" href="#">Configuración</a></li>
                                 <li><a class="dropdown-item" href="Datos/logout.php">Cerrar sesión</a></li>
                             </ul>
+
+                        </li>
                 </div>
             </div>
 
@@ -112,7 +114,7 @@ if (!isset($correo)) {
             </ul>
         </nav>
 
-        
+
 
     </main>
 
