@@ -1,5 +1,6 @@
 <?php
 session_start();
+
 $correo = $_SESSION['correo'];
 
 if (!isset($correo)) {
@@ -15,7 +16,7 @@ if (!isset($correo)) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciar sesión</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="Presentacion/main.css">
+    <link rel="stylesheet" href="Presentacion/formulario-registro.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
@@ -76,7 +77,7 @@ if (!isset($correo)) {
                 <li class="submenu-parent">
                     <a href="#" class="submenu-trigger"><i class="fa-solid fa-file-medical"></i> Registrar</a>
                     <ul class="submenu">
-                        <li><a href="formulario-registro.php"><i class="fa-solid fa-caret-right"></i> Crear registro</a></li>
+                        <li><a href="#"><i class="fa-solid fa-caret-right"></i> Crear registro</a></li>
                         <li><a href="#"><i class="fa-solid fa-caret-right"></i> Modificar</a></li>
                     </ul>
                 </li>
@@ -115,8 +116,63 @@ if (!isset($correo)) {
 
         <div class="contenedor-main">
 
-            <h2>Main</h2>
+            <h2>Creación de registro</h2>
+            <form action="" method="post" class="formulario-registro">
 
+                <div class="row">
+                    <div class="input-group">
+                        <span class="input-group-text">Nombre</span>
+                        <input type="text" aria-label="First name" class="form-control" placeholder="Nombres">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-group">
+                        <span class="input-group-text">Apellido</span>
+                        <input type="text" aria-label="First name" class="form-control" placeholder="Apellidos">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-group">
+                        <span class="input-group-text">Rut</span>
+                        <input type="text" aria-label="First name" class="form-control" placeholder="Rut con DV">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-group">
+                        <span class="input-group-text">ID | Clave</span>
+                        <input type="text" aria-label="First name" class="form-control" placeholder="ID">
+                        <input type="text" aria-label="First name" class="form-control" placeholder="Clave">
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label for="campaña" class="form-label"></label>
+                    <span class="input-group-text">Campaña</span>
+                    <input class="form-control" list="campañaOptions" id="campaña" placeholder="Escribe una campaña">
+                    <datalist id="campañaOptions">
+                        <option value="100 - C2C HOSPITALIZACION">
+                        <option value="1 - B.ESTADO CROSS SONAP">
+                        <option value="103 - AUTOLAND (SEGURO AUTOS)">
+                        <option value="116 - RENOVACION_EGRA">
+                        <option value="159 - CLA AP + Bonificacion">
+                    </datalist>
+                </div>
+
+                <div class="input-group">
+                    <label for="supervisor" class="form-label"></label>
+                    <span class="input-group-text">Supervisor</span>
+                    <input class="form-control" list="supervisorOptions" id="supervisor" placeholder="Escribe un supervisor">
+                    <datalist id="supervisorOptions">
+                        <option value="Antonio">
+                        <option value="Valeria">
+                        <option value="Rodrigo">
+                        <option value="Leslie">
+                        <option value="Adela">
+                    </datalist>
+                </div>
+
+
+
+            </form>
 
 
 

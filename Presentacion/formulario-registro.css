@@ -405,3 +405,46 @@ main {
     margin-bottom: 5rem
 }
 
+.contenedor-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenedor-main{
+    text-align: center;
+    width: 100%;
+}
+.contenedor-main input{
+    max-width: 20% !important;
+    display: flex;
+    height: 3rem;
+    font-family: Nunito;
+    font-size: 1.5rem;
+}
+
+.row{
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    font-family: Nunito;
+    font-size: 1.4rem;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 1;
+}
+
+.input-group-text{
+    font-family: Nunito;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.form-control, .input-group-text{
+    margin-bottom: 3rem;
+}
+

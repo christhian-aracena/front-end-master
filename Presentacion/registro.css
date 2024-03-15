@@ -133,7 +133,7 @@ button:hover {
 
 .alert .close {
     position: absolute;
-    top: 5px;
+    top: 0.5rem;
     right: 5px; /* Ajusta el espacio entre la cruz y el borde derecho */
     cursor: pointer;
 }
