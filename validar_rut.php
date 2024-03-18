@@ -1,11 +1,9 @@
-
 <?php
 // Incluir la conexión a la base de datos
 include('Datos/conexion.php');
 
 // Obtener el RUT sin puntos del parámetro POST
 $rut = $_POST['rut_registro'];
-
 $rut_sin_puntos = str_replace('.', '', $rut);
 
 // Realizar la consulta para verificar si el RUT ya existe en la base de datos

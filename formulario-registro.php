@@ -117,7 +117,7 @@ if (!isset($correo)) {
         <div class="contenedor-main">
 
             <h2 class="titulo">Registro de usuarios</h2>
-            <form action="" method="post" class="formulario-registro">
+            <form action="validar_registro.php" method="post" class="formulario-registro">
 
 
 

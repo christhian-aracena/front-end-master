@@ -14,6 +14,7 @@ document.getElementById('btnSubmit').addEventListener('click', function (event) 
                 } else {
                     // Continuar con el envío del formulario
                     form.submit();
+
                 }
             }
         };
