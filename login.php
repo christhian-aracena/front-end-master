@@ -21,7 +21,7 @@
 
     <div class="container mt-5">
         <div class="text-center">
-            <h1 class="mb-4 title">!Bienvenido a nuestra página!</h1>
+            <h1 class="mb-4 ">Inicia sesion</h1>
             
             <div class="logo-container">
                 <img src="Presentacion/img/soex.jpg" alt="Logo de tu empresa" class="logo img-fluid">

@@ -32,7 +32,7 @@
             <input type="email" id="correo_registro" name="correo_registro" required placeholder="Ej: cperez@soex.cl">
         </div>
         <div class="form-group">
-            <label for="occupation">Ocupación:</label>
+            <label for="occupation">Tipo de usuario:</label>
             <?php include("Negocio/comBox_ocupacion.php"); ?>
         </div>
         <div class="form-group">

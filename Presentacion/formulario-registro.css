@@ -232,10 +232,12 @@ footer {
     bottom: 0;
     width: 100%;
     background: #fff;
+    z-index: 1005;
 }
 
-small {
+footer small {
     font-family: Nunito;
+    z-index: 1005;
 }
 
 
@@ -416,7 +418,7 @@ main {
     width: 100%;
 }
 .contenedor-main input{
-    max-width: 20% !important;
+    max-width: 40rem !important;
     display: flex;
     height: 3rem;
     font-family: Nunito;
@@ -446,5 +448,84 @@ main {
 
 .form-control, .input-group-text{
     margin-bottom: 3rem;
+    min-width: 10rem;
+    max-width: 10rem;
 }
 
+.titulo{
+    font-family: Nunito;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    margin-top: 5rem;
+    text-shadow: 0.3rem 0.3rem 2rem rgba(22, 2, 2, 0.411);
+}
+
+.formulario-registro button{
+    background: #B40000;
+    color: rgb(255, 255, 255);
+    font-family: Nunito;
+    transition: ease-in 0.2s;
+    border-radius: 0.5rem;
+    height: 3.8rem;
+    /* text-shadow: 0.3rem 0.3rem 2rem rgb(22, 2, 2); */
+    border: solid 0.2rem #951818;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-weight: 600;
+}
+
+.formulario-registro button:hover{
+    background: #ffffffce;
+    color: rgb(255, 255, 255);
+    font-family: Nunito;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: solid 0.2rem #951818;
+    color: #B40000;
+}
+
+.checkbox{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.checkbox-group{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding-right: 33rem;
+
+}
+
+.row-check{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.2rem;
+
+}
+
+.label-teletrabajo{
+    font-family: Nunito;
+    font-weight: bold;
+}
+
+
+
+.btncerrar{
+    font-size: 1.5rem;
+    font-family: Nunito;
+}
+
+.texto-modal{
+    font-size: 1.7rem;
+    font-family: Nunito;
+}
+
+.modal-title{
+    font-size: 1.5rem;
+    font-family: Nunito;
+}

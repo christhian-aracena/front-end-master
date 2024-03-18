@@ -36,3 +36,18 @@ hamburguesa.addEventListener('click', function() {
     hamburguesa.classList.toggle('cruz');
 });
 
+function selectInput(inputId) {
+    document.getElementById(inputId).focus();
+}
+
+
+function toggleDuracion() {
+    var duracionInput = document.getElementById('duracion');
+    var activarDuracionCheckbox = document.getElementById('activarDuracion');
+
+    if (activarDuracionCheckbox.checked) {
+        duracionInput.disabled = false;
+    } else {
+        duracionInput.disabled = true;
+    }
+}

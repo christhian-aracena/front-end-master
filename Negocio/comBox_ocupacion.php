@@ -5,7 +5,7 @@
 
   $null = null;
 
-  echo "<option value='$null'>Seleccione una ocupación</option>";
+  echo "<option value='$null'>Seleccione un tipo de usuario</option>";
 
   while ($fila1 = mysqli_fetch_assoc($ejecutarConsulta)) {
       $id_ocupacion = $fila1['id_ocupacion'];
